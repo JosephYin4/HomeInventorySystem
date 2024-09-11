@@ -26,10 +26,8 @@ Google Search: For all the other coding queries which we cannot find in W3School
 
 
 
-#Credits To our lecturer Malcolm for his invaluable teaching and instructors Arif and Alex for their guidance and help.
+#Credits To our lecturer Paul for his invaluable teaching and instructor Arif his guidance and help.
 
-#Content The content is scripted and edited by myself.
+#Acknowledgements I received inspiration for this project from Paul's Bookstore invenotry system example.
 
-#Media The photos used in this site were obtained from royalty free sharing websites such as pexels and google.
-
-#Acknowledgements I received inspiration for this project from the fact that i see many newcomers to cryptocurrencies do not know where to start learning about cryptocurrency and blockchain so i wanted to design this CryptoJewels website to share with them.
+End of Readme.
