@@ -6,12 +6,9 @@ import java.util.Scanner;
 public class Main {
 
     static ArrayList<Item> inventory = new ArrayList<Item>();
-    static ArrayList<Item> bigItemInventory = new ArrayList<Item>();
-    static ArrayList<Item> smallItemInventory = new ArrayList<Item>();
-
 
     // display the menu and make sure the user enters between 1 and 6
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
 
         while (true) {
@@ -112,21 +109,21 @@ public class Main {
             // ask the user to enter details for parent Item class
             System.out.println("What is the item ID?(Key from 001 to 999) ");
             int ID = sc.nextInt();
-            System.out.println(ID);
+            //System.out.println("The item ID is: " + ID);
             sc.nextLine();//get rid of the buffered \n
             System.out.print("Enter item name: ");
             String Name = sc.nextLine();
-            System.out.print(Name);
+            //System.out.println("The item Name is: " + Name);
             System.out.print("Enter quantity of same item(0 to 100): ");
             int Quantity = sc.nextInt();
             sc.nextLine(); // get rid of the buffered \n
-            System.out.print(Quantity);
+            //System.out.println("The item Quantity is: " + Quantity    );
             System.out.print("Enter price per item in dollars: ");
             double PricePerItem = sc.nextDouble();
-            System.out.print(PricePerItem);
+            //System.out.println("The Price Per Item is: " + PricePerItem);
             System.out.print("Enter estimated lifespan of item in years: ");
             double EstimatedLifeSpan = sc.nextDouble();
-            System.out.print(EstimatedLifeSpan);
+            // System.out.println("The Estimated LifeSpan of item is: " + EstimatedLifeSpan);
             sc.nextLine();//get rid of the buffered \n
 
             // create a placeholder and set it to empty
